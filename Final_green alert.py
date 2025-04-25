@@ -12,7 +12,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url("https://raw.githubusercontent.com/NirzorDeb/greenalert/main/background.jpg");
+        background-image: url("https://github.com/nirzordeb/greenalert3/blob/main/green_bg.jpg?raw=true");
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
