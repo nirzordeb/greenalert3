@@ -11,7 +11,7 @@ st.set_page_config(page_title="🌿 GreenAlert – Tea Garden Climate Assistant"
 st.markdown("""
     <style>
     .main {
-        background-image: url('https://www.vecteezy.com/photo/47199141-rows-of-tea-plantation');
+        background-image: url('green_bg.jpg');
         background-size: cover;
         padding: 2rem;
         border-radius: 10px;
