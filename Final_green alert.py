@@ -7,26 +7,21 @@ DEFAULT_CITY = "Sreemangal"
 # Page setup
 st.set_page_config(page_title="🌿 GreenAlert – Tea Garden Climate Assistant", layout="centered")
 
-# Background and styles
-st.markdown("""
+# Set background image from GitHub raw URL
+st.markdown(
+    """
     <style>
-    .main {
-        background-image: url('https://raw.githubusercontent.com/nirzordeb/greenalert3/refs/heads/main/green_bg.jpg');
+    .stApp {
+        background-image: url("https://raw.githubusercontent.com/NirzorDeb/greenalert/main/background.jpg");
         background-size: cover;
-        padding: 2rem;
-        border-radius: 10px;
-        color: white;
-    }
-    h1 {
-        color: #ffffff;
-        text-align: center;
-    }
-    .stButton>button {
-        background-color: #4CAF50;
-        color: white;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
     </style>
-""", unsafe_allow_html=True)
+    """,
+    unsafe_allow_html=True
+)
+
 
 # === Language Selector ===
 language = st.selectbox("🌐 Language / ভাষা বেছে নিন", ["English", "বাংলা"])
