@@ -6,48 +6,7 @@ import requests
 
 
 
-# Language switcher
-language = st.selectbox("Select Language / ভাষা বেছে নিন", ["English", "বাংলা"])
 
-# Translations Dictionary
-translations = {
-    "English": {
-        "title": "Future Weather Forecast App",
-        "city_prompt": "Enter City Name",
-        "current_weather": "Current Weather of",
-        "temperature": "Temperature",
-        "humidity": "Humidity",
-        "rainfall": "Rainfall",
-        "description": "Weather Description",
-        "not_found": "City not found. Please enter a valid city.",
-        "enter_city": "Please enter a city name.",
-        "forecast": "Weather Forecast",
-        "manual_input": "Manual Input for Farmers",
-        "temp_label": "Temperature (°C)",
-        "humidity_label": "Humidity (%)",
-        "rainfall_label": "Rainfall (mm)",
-        "summary": "According to your input:"
-    },
-    "বাংলা": {
-        "title": "ভবিষ্যতের আবহাওয়া পূর্বাভাস অ্যাপ",
-        "city_prompt": "শহরের নাম লিখুন",
-        "current_weather": "বর্তমান আবহাওয়া",
-        "temperature": "তাপমাত্রা",
-        "humidity": "আর্দ্রতা",
-        "rainfall": "বৃষ্টিপাত",
-        "description": "আবহাওয়ার বিবরণ",
-        "not_found": "শহরের তথ্য পাওয়া যায়নি। দয়া করে শহরের নাম ঠিক মত লিখুন।",
-        "enter_city": "অনুগ্রহ করে একটি শহরের নাম লিখুন।",
-        "forecast": "আবহাওয়া পূর্বাভাস",
-        "manual_input": "কৃষকদের জন্য ইনপুট:",
-        "temp_label": "তাপমাত্রা (°C)",
-        "humidity_label": "আর্দ্রতা (%)",
-        "rainfall_label": "বৃষ্টিপাত (মিমি)",
-        "summary": "তথ্য অনুযায়ী:"
-    }
-}
-
-t = translations[language]
 
 
 
