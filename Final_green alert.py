@@ -11,7 +11,7 @@ st.set_page_config(page_title="🌿 GreenAlert – Tea Garden Climate Assistant"
 st.markdown("""
     <style>
     .main {
-        background-image: url('https://github.com/nirzordeb/greenalert3/blob/main/green_bg.jpg?raw=true');
+        background-image: url('https://raw.githubusercontent.com/nirzordeb/greenalert3/refs/heads/main/green_bg.jpg');
         background-size: cover;
         padding: 2rem;
         border-radius: 10px;
