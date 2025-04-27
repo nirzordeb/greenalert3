@@ -10,14 +10,14 @@ API_KEY = "45a639fc080aea68034627c083e5b60b"  # <-- Put your API key here
 DEFAULT_CITY = "Sreemangal"
 
 # === BACKGROUND IMAGE ===
-def set_bg_from_local(image_file):
-    with open(image_file, "rb") as f:
+def set_bg_from_local(Al-bg.jpg):
+    with open(Al-bg.jpg, "rb") as f:
         encoded_string = base64.b64encode(f.read())
     st.markdown(
         f"""
         <style>
         .stApp {{
-            background-image: url("data:image/jpg;base64,{encoded_string.decode()}");
+            background-image: url("data:Al-bg.jpg;base64,{encoded_string.decode()}");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -32,7 +32,7 @@ def set_bg_from_local(image_file):
 st.set_page_config(page_title="GreenAlert - Tea Garden Climate Assistant", layout="wide")
 
 # Add Background
-set_bg_from_local("background.jpg")  # make sure background.jpg is in same folder
+set_bg_from_local("Al-bg.jpg")  # make sure background.jpg is in same folder
 
 # === LANGUAGE SETUP ===
 language = st.selectbox("🌐 Language / ভাষা বেছে নিন", ["English", "বাংলা"])
